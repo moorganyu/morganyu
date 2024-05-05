@@ -1,0 +1,101 @@
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .varela-round-regular {
+    font-family: "Varela Round", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+
+
+.container-center{
+    margin-left: auto; 
+    margin-right: auto;
+    text-align: center;
+    
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+.container-right{
+    margin-right: 10%;
+
+}
+
+
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: center;
+  }
+ 
+  .card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+    border-radius: 0;
+  }
+
+  @media (min-width: 768px) {
+    .card img {
+      height: 10%;
+    }
+  }
+
+ .container
+  {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.typewriter {
+  position: relative;
+  top: 50%;  
+  width: 6em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255,255,255,.75);
+  font-size: 180%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);    
+  animation: typewriter 1.5s steps(44) 1s 1 normal both,
+           blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width:6em;}
+}
+
+.semi-transparent {
+  background-color: #05112100;
+  color: #FFF3BF;
+  opacity: 1;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
