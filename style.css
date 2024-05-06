@@ -101,6 +101,6 @@
   
 }
 
-.body{
+HTML, body{
     x-overflow: hidden;
 }
