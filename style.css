@@ -102,5 +102,5 @@
 }
 
 .body{
-    x-overflow: none;
+    x-overflow: hidden;
 }
