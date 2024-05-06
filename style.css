@@ -100,3 +100,7 @@
   transform: translate(-50%, -50%);
   
 }
+
+.body{
+    x-overflow: none;
+}
