@@ -103,4 +103,5 @@
 
 HTML, body{
     x-overflow: hidden;
+    width: 100%;
 }
