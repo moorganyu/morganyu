@@ -12,7 +12,7 @@
 <link rel="stylesheet" type="text/css" href="/morganyu/style.css">
 </head>
 <!--Nav Bar-->
-<div style="x-overflow: hidden;">
+<div>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light sticky" >
     <div class="container-fluid">
@@ -61,9 +61,9 @@
     </div>
   </nav>
 
-<body>
+<body style="overflow-x: hidden;">
 <!--About Me-->
-<div style="x-overflow: hidden;">  
+<div>  
   <img src="/morganyu/bg.jpg">
 
   <div class="semi-transparent" ><h1 class="varela-round-regular" style="font-size: 5em;">Hi, I'm Morgan!</h1></div>
@@ -72,7 +72,7 @@
 <h1 id="About" class="varela-round-regular" style="text-align: center; margin-top: 10%; scroll-margin-top: 2em;">About Me</h1>
 </div>
 <div class="card" style="width: 40%; margin-left: auto; margin-right: auto;">
-    <img class="card-img-top"  src="/morganyu/me.jpg" alt="Card image cap">
+    <img class="card-img" style="height:50vh;" src="/morganyu/me.jpg" alt="Card image cap">
     <div class="card-body container-center" >
       <div class=" container"><h5  class="card-title roboto-bold ">Hi, I'm Morgan!</h5></div>
       <p class="card-text">My name is Morgan, and I'm a computer engineering student at the University of Waterloo.  </p>
@@ -93,21 +93,21 @@
             <!--<a class="btn btn-primary" href = "file_path" download = "Morgan_Yu_Resume">Learn More</a>-->
           </div>
         </div>
-        <div class="card d-none d-md-block" style="width: 30%;">
-          <img style="min-height: 25rem; max-height: 25rem;" src="/morganyu/code.jpeg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Stock Transaction Sorter</h5>
-            <h6 class="card-title">Using C++ in VSCode</h6>
-            <p class="card-text">Creating the stock transation sorter allowed me to hone my skills in object oriented programming as well as learn the fundementals of pointers and sorting algorithms.</p>
-          </div>
-        </div>
+        
         <div class="card d-none d-md-block" style="width: 30%;">
           <img style="min-height: 25rem; max-height: 25rem;" src="/morganyu/weather_app.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Weather Web Application</h5>
             <h6 class="card-title">Using JavaScript, HTML, CSS React.js</h6>
             <p class="card-text">I created a weather application to learn more about APIs and how to use them effectively in a program. I was also able to use React to launch the application which allowed me to gain deeper knowledge of the framework.</p>
- 
+          </div>
+        </div>
+        <div class="card d-none d-md-block" style="width: 30%;">
+          <img style="min-height: 25rem; max-height: 25rem;" src="/morganyu/code.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Stock Transaction Sorter</h5>
+            <h6 class="card-title">Using C++ in VSCode</h6>
+            <p class="card-text">Creating the stock transation sorter allowed me to hone my skills in object oriented programming as well as learn the fundementals of pointers and sorting algorithms. In this project, I used selection sort to sort various stocks.</p>
           </div>
         </div>
   </div>
